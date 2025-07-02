@@ -1,0 +1,8 @@
+pyyaml
+python-dateutil
+isodate
+numpy
+scipy
+psycopg2
+
+paho-mqtt

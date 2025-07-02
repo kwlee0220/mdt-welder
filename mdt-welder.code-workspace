@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../mdtpy"
+		}
+	],
+	"settings": {
+		"editor.tokenColorCustomizations": {
+			"comments": "#B0B0B0"
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Append ampere record",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/append_ampere_record.py",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            },
+            "args": [
+                "data/23.05.25.csv",
+                "--interval", "0.1",
+                // "--sync"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Publish ampere record",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/publish_ampere_record.py",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            },
+            "args": [
+                "data/23.05.25.csv",
+                "--interval", "10",
+                // "--sync"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Inspect waveform",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/inspect_waveform.py",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            },
+            "args": [
+                "--instance", "welder",
+                "--interval", "70"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Test inspection",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/test_inspection.py",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            },
+            "args": [
+                "data/test.csv",
+                // "--sync"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+} 
