@@ -18,7 +18,7 @@ from welder.database_utils import open_connection, create_ampere_log_table_if_ab
 DATABASE_PARAMS = {
     'dbname': 'mdt_app',
     'user': 'mdt',
-    'password': 'urc2004',
+    'password': 'mdt2025',
     'host': 'localhost',
     'port': '5432'
 }

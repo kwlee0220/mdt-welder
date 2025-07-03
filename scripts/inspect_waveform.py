@@ -15,7 +15,7 @@ from welder import ElectricCurrentMeasure, NozzleProductionAudit, recognize_work
 DATABASE_PARAMS = {
     'dbname': 'mdt_app',
     'user': 'mdt',
-    'password': 'urc2004',
+    'password': 'mdt2025',
     'host': 'localhost',
     'port': '5432'
 }
